@@ -1,0 +1,362 @@
+/*
+====================================
+Medium Screen - Others
+====================================
+*/
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .logo a img {
+    display: inline-block;
+    width: 110px;
+  }
+
+  .hero_wrapper {
+    padding: 0;
+  }
+
+  .hero_right {
+    margin-left: 0;
+  }
+}
+
+/*
+====================================
+Small Screen - Tablate
+====================================
+*/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .menuItem {
+    display: block;
+  }
+
+  .menuitem_left ul li {
+    display: block;
+    border-bottom: 1px solid #333;
+  }
+
+  .menuitem_left ul li a {
+    display: block;
+    padding: 8px 8px;
+  }
+
+  .offcanvas-header img {
+    display: inline-block;
+    width: 150px;
+  }
+
+  .menuItem_right {
+    margin-top: 45px;
+  }
+
+  .menuItem_right ul li a {
+    margin-left: 0;
+  }
+
+  .menuItem_right ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+  }
+
+  .logo {
+    width: 100%;
+  }
+
+  .offcanvas-start {
+    width: 300px;
+  }
+
+  .dropdown-menu {
+    margin-top: 5px !important;
+    width: 100%;
+  }
+
+  .hero_wrapper {
+    padding: 0;
+  }
+
+  #hero {
+    padding: 40px 0px;
+  }
+
+  .hero_left h4 {
+    font-size: 24px;
+  }
+
+  .hero_left h2 {
+    font-size: 28px;
+  }
+
+  .hero_right {
+    margin-left: 0;
+    padding: 20px;
+    margin-top: 40px;
+  }
+
+  .hero_right_heading h3 {
+    font-size: 16px;
+  }
+
+  .hero_right_heading p {
+    font-size: 16px;
+  }
+
+  .inputbox input,
+  .submit button {
+    font-size: 16px;
+    padding: 10px 18px;
+    margin-bottom: 18px;
+  }
+
+  h2.footer_heading {
+    font-size: 22px;
+    margin-bottom: 8px;
+  }
+
+  .footer_two ul li a {
+    font-size: 14px;
+    margin-bottom: 2px;
+  }
+
+  .footer_two,
+  .footer_one {
+    margin-top: 25px;
+  }
+
+  .copyright_wrapper {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .copyright_wrapper ul li a {
+    margin: 0px 8px;
+  }
+}
+
+/*
+====================================
+Small Screen - Mobile
+====================================
+*/
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .menuItem {
+    display: block;
+  }
+
+  .menuitem_left ul li {
+    display: block;
+    border-bottom: 1px solid #333;
+  }
+
+  .menuitem_left ul li a {
+    display: block;
+    padding: 8px 8px;
+  }
+
+  .offcanvas-header img {
+    display: inline-block;
+    width: 150px;
+  }
+
+  .menuItem_right {
+    margin-top: 45px;
+  }
+
+  .menuItem_right ul li a {
+    margin-left: 0;
+  }
+
+  .menuItem_right ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+  }
+
+  .logo {
+    width: 100%;
+  }
+
+  .offcanvas-start {
+    width: 300px;
+  }
+
+  .dropdown-menu {
+    margin-top: 5px !important;
+    width: 100%;
+  }
+
+  .hero_wrapper {
+    padding: 0;
+  }
+
+  #hero {
+    padding: 40px 0px;
+  }
+
+  .hero_left h4 {
+    font-size: 24px;
+  }
+
+  .hero_left h2 {
+    font-size: 28px;
+  }
+
+  .hero_right {
+    margin-left: 0;
+    padding: 20px;
+    margin-top: 40px;
+  }
+
+  .hero_right_heading h3 {
+    font-size: 16px;
+  }
+
+  .hero_right_heading p {
+    font-size: 16px;
+  }
+
+  .inputbox input,
+  .submit button {
+    font-size: 16px;
+    padding: 10px 18px;
+    margin-bottom: 18px;
+  }
+
+  h2.footer_heading {
+    font-size: 22px;
+    margin-bottom: 8px;
+  }
+
+  .footer_two ul li a {
+    font-size: 14px;
+    margin-bottom: 2px;
+  }
+
+  .footer_two {
+    margin-top: 35px;
+  }
+
+  .copyright_wrapper {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .copyright_wrapper ul li a {
+    margin: 0px 8px;
+  }
+}
+
+/*
+====================================
+Xtra Small Screen - Small Mobile
+====================================
+*/
+@media screen and (max-width: 576px) {
+  .menuItem {
+    display: block;
+  }
+
+  .menuitem_left ul li {
+    display: block;
+    border-bottom: 1px solid #333;
+  }
+
+  .menuitem_left ul li a {
+    display: block;
+    padding: 8px 8px;
+  }
+
+  .offcanvas-header img {
+    display: inline-block;
+    width: 150px;
+  }
+
+  .menuItem_right {
+    margin-top: 45px;
+  }
+
+  .menuItem_right ul li a {
+    margin-left: 0;
+  }
+
+  .menuItem_right ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+  }
+
+  .logo {
+    width: 100%;
+  }
+
+  .offcanvas-start {
+    width: 300px;
+  }
+
+  .dropdown-menu {
+    margin-top: 5px !important;
+    width: 100%;
+  }
+
+  .hero_wrapper {
+    padding: 0;
+  }
+
+  #hero {
+    padding: 40px 0px;
+  }
+
+  .hero_left h4 {
+    font-size: 24px;
+  }
+
+  .hero_left h2 {
+    font-size: 28px;
+  }
+
+  .hero_right {
+    margin-left: 0;
+    padding: 20px;
+    margin-top: 40px;
+  }
+
+  .hero_right_heading h3 {
+    font-size: 16px;
+  }
+
+  .hero_right_heading p {
+    font-size: 16px;
+  }
+
+  .inputbox input,
+  .submit button {
+    font-size: 16px;
+    padding: 10px 18px;
+    margin-bottom: 18px;
+  }
+
+  h2.footer_heading {
+    font-size: 22px;
+    margin-bottom: 8px;
+  }
+
+  .footer_two ul li a {
+    font-size: 14px;
+    margin-bottom: 2px;
+  }
+
+  .footer_two {
+    margin-top: 35px;
+  }
+
+  .copyright_wrapper {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .copyright_wrapper ul li a {
+    margin: 0px 8px;
+  }
+}
